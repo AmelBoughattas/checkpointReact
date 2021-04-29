@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+/*   background-image:url('./image/arrirePlan.png') ; */
 }
 
 .App-logo {
@@ -7,32 +8,43 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.App-nav{
+  float: right;
+  color:white;
+  width:100%;
+ box-shadow: 10px 10px 5px 0px black;
+ font-weight: 300;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Jumbotron{
+  background-image: url('./image/background3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+   background-position: center;
+   margin-top: 100px;
+   padding-top:50px;
+}
+
+.App-title {
+  color:rgb(226, 99, 99);
+  padding:0 0 25px 0 ;
+  font-weight: 300;
+  font-size:1.5em;
+
+}
+
+.App-link {
+  color: #61dafb;
 }
